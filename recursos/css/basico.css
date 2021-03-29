@@ -1,0 +1,22 @@
+*{
+    margin: 1px;
+    padding: 1px;
+}
+
+.barraSuperior nav a img {
+    height: 20px;
+    width: 30px;
+}
+
+#lateral{
+    width: 10%;
+    height: 90%;
+}
+
+#banner h2{
+    text-shadow: 5px 3px 5px rgb(113, 113, 141);
+}
+
+#accordionExample{
+    width: 30%;
+}
