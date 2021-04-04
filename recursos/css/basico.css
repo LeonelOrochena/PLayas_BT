@@ -10,13 +10,10 @@
 
 #lateral{
     width: 10%;
-    height: 90%;
+    height: 100%;
 }
 
 #banner h2{
     text-shadow: 5px 3px 5px rgb(113, 113, 141);
 }
 
-#accordionExample{
-    width: 30%;
-}

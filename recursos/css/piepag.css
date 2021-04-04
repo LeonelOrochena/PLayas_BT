@@ -1,0 +1,18 @@
+#piepag {
+    width: 50%;
+    border-top: 1px solid #aadcd2;
+}
+
+#piepag i {
+    font-size: 200%;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+#piepag li {
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+}
+

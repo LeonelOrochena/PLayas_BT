@@ -27,7 +27,9 @@ integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZi
           crossorigin="anonymous"/>
 
     <!--CSS-->
-    <link rel="stylesheet" href="recursos/css/basico.css">      
+    <link rel="stylesheet" href="recursos/css/basico.css">
+    <link rel="stylesheet" href="recursos/css/piepag.css"> 
+    <link rel="stylesheet" href="recursos/css/main.css">       
 
 </head>
 <body>
@@ -36,7 +38,7 @@ integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZi
             <nav class="navbar navbar-expand-lg  bg-dark navbar-dark row">
 
                 <a href="#" class="navbar-brand col-md-2">
-                    <img src="recursos/imagenes/Playa1.jpg" alt="" class="img-fluid rounded-circle">
+                    <img src="recursos/imagenes/Playa1.jpg" alt="" class="img-fluid rounded-circle small">
                     <span>Nuestras Playas</span>
                 </a>
 
@@ -51,7 +53,6 @@ integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZi
             </nav>
 
     </header>
-
     <!--Contenido-->
     <section id="principal" class="d-flex flex-row">
         <!--Menu Lateral-->
@@ -83,17 +84,17 @@ integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZi
                 <article class="d-flex flex-row">
                     <div class="jumbotrom shadow m-3">
                         <h3 class="h3">Playas del Pacífico</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <p>Una descripción corta... </p>
                         <a href="#" class="btn btn-outline-primary">...</a>
                     </div>
                     <div class="jumbotrom shadow m-3">
                         <h3 class="h3">Playas del Atlántico</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <p>Una descripción corta... </p>
                         <a href="#" class="btn btn-outline-danger">...</a>
                     </div>
                     <div class="jumbotrom shadow m-3">
                         <h3 class="h3">Lagos y Lagunas</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <p>Una descripción corta... </p>
                         <a href="#" class="btn btn-outline-success">...</a>
                     </div>
               </article>
@@ -103,7 +104,7 @@ integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZi
                       <div class="accordion-item">
                           <h2 class="accordion-header" id="headingOne">
                               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                  Oceános
+                                  Océanos
                               </button>
                           </h2>
                           <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample" >
@@ -140,7 +141,7 @@ integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZi
 
                 </div>
                   <!--Tabla BootsTrap-->
-                  <div class="table-responsive mx-5">
+                  <div id="table" class="table-responsive mx-5">
                       <table class="table table-striped table-hover">
                           <thead>
                               <tr>
@@ -176,8 +177,10 @@ integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZi
               </article>
 
             </section>
-            <footer id="piepag">
-
+            <footer id="piepag" class="navbar navbar-expand-lg row">
+                
+                    <li> <a href="#" class="nav-link"><i class="fab fa-facebook"></a></i></li>
+                    <li> <a href="#" class="nav-link"><i class="fab fa-whatsapp-square"></a></i></li>
             </footer>
 
         </main>
